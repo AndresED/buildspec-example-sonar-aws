@@ -14,4 +14,4 @@ phases:
       - export SONAR_KEY=MI_KEY
       - npm install jest
       - npm install 
-      - sonar-scanner -Dsonar.projectKey=CodeviewExample -Dsonar.sources=. -Dsonar.host.url=$SONAR_SERVIDOR -Dsonar.login=SONAR_KEY -Dsonar.typescript.lcov.reportPaths=coverage/lcov.info
+      - sonar-scanner -Dsonar.projectKey=CodeviewExample -Dsonar.sources=. -Dsonar.host.url=$SONAR_SERVIDOR -Dsonar.login=$SONAR_KEY -Dsonar.typescript.lcov.reportPaths=coverage/lcov.info
